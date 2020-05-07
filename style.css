@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Animated History*/
+
+.road {
+    background: url(images/city.jpg) bottom no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-width: 892px;
+    height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.bottom-grass {
+    background: url(images/bottom-grass.png) bottom no-repeat;
+    background-size: 100%;
+    max-width: 892px;
+    width: 100%;
+    height: 66px;
+    margin: 0 auto;
+    position: relative;
+    top: -50px;
+    z-index: 9;
+}
+
+
+/*speech*/
+
+.speech {
+    background: url(images/speech.jpg) no-repeat center center;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: 30%;
+    animation-name: speech;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes speech {
+    0% {
+        left: -100%;
+    }
+    50% {
+        left: 0;
+    }
+    100% {
+        left: 100%;
+    }
+} 
+/*
+@keyframes speech {
+  from {left: 300px;}
+  to {left: 400px;}
+} *
+
+
+
+/*skating */
+
+.skating {
+    background: url(images/skating.gif) no-repeat center center;
+    height: 184px;
+    width: 375px;
+    position: relative;
+    top: 30%;
+    animation-name: skating;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes skating {
+    0% {
+        left: -100%;
+    }
+    50% {
+        left: 0;
+    }
+    100% {
+        left: 100%;
+    }
+}
+
